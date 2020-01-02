@@ -1,0 +1,236 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+span.section-intro{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	box-sizing:border-box;
+	display:block;
+	/* margin-bottom: 30px; */
+}
+
+#profile{
+	width:30%;
+	border-radius:50%;
+	border:10px solid #f1f1f1;
+}
+
+#about>.container{
+	background-color: rgba(15, 15, 16, 0.7);
+	width: 800px;
+}
+@media (min-width:1200px){
+	#about  div.col-lg-4{
+		width: 40%;
+	}
+	#about .col-lg-offset-2{
+		margin-left:10%;
+	}
+}
+
+#machinelearning{
+	background-color: rgb(44, 62, 80);
+	color: white;
+	height: 1135px;
+}
+
+#machinelearning #embed{
+	/* border-radius:50%; */
+	display:block;
+	margin:auto;
+}
+
+
+svg {
+    display:block;
+    margin: 0 auto;
+    background-color: rgb(250,250,250);
+}
+
+#cost{
+	display:none;
+	position: relative;
+	top: 10px;
+}
+
+#embed:hover+#cost{
+	text-align:center;
+	display:block;
+	font-size:1em;
+}
+
+#animation-box{
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+	background-color: transparent;
+	display:block;
+	position: absolute;
+	outline-style: solid;
+	outline-color: #fafafa;
+	outline-width: 10px;
+	top: 350px;
+	left: 50%;
+	margin-bottom: 50px;
+	cursor:default;
+	transform: translate(-50%, -50%);
+}
+
+#pause-box{
+	margin:auto;
+	width:600px;
+	height: 600px;
+	background-color: rgba(44, 62, 80, 0.8);
+	/* display: none; */
+	position: absolute;
+	outline-width: 10px;
+	/* margin-bottom: 50px; */
+	z-index: 10;
+	left: 50%;
+	top: 350px;
+	transform: translate(-50%, -50%);
+}
+
+#pause-box md-content{
+	background-color:transparent;
+	height:600px;
+	width:600px;
+}
+
+#pause-box button{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
+
+#pause-box h1{
+	text-align: center;
+	display: block;
+	position: relative;
+	z-index: 100;
+	color: white;
+	top: 27%;
+}
+
+.buttondemoBasicUsage section {
+  background: #f7f7f7;
+  border-radius: 3px;
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px; }
+
+.buttondemoBasicUsage md-content {
+  margin-right: 7px; }
+
+.buttondemoBasicUsage section .md-button {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+.buttondemoBasicUsage .label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54; 
+}
+
+#mlbutton{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	background-color: rgb(44, 62, 80);
+	overflow: auto;
+}
+
+#mlbutton button{
+	/* width:100px; */
+	/* height:100px; */
+	position: absolute;
+	/* display:block; */
+	/* vertical-align:middle; */
+	margin: 0 auto;
+	/* background-color: aqua; */
+	top: 66%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#mlbutton span{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	box-sizing: border-box;
+	display: block;
+	/* position: absolute; */
+	color: white;
+	/* margin-top: 100px; */
+}
+
+#mlbutton p{
+	color: white;
+	text-align: center;
+	top: 21%;
+	position: relative;
+}
+
+#mlbutton h1{
+	text-align:center;
+	top:10%;
+	position:relative;
+}
+
+#RunDemo{
+	background-color: #18bc9c;
+}
+
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 4px;
+    background: currentColor;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.visible{
+	display:block;
+}
+
+.hidden{
+	display:none;
+}
